@@ -1,3 +1,8 @@
+Vithushan Kanageswarann
+Derrick Locquiao
+
+conventions: dragon style
+
 #######################
 Starter Webapp - Quotes
 #######################
