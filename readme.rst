@@ -1,8 +1,9 @@
-Derrick Locquiao - good on ya bud
-Vithushan Kanageswarann - derrickthewinner = awesome
+Derrick Locquiao
+Vithushan Kanageswarann
 
 
-conventions: dragon style
+Conventions: dragon style
+
 
 #######################
 Starter Webapp - Quotes
