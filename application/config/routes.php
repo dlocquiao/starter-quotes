@@ -39,19 +39,23 @@
 */
 
 $route['default_controller'] = "welcome";
-$route['404_override'] = '';
+$route['404_override'] = 'errors/page_missing';
 $route['first'] = "first";
 $route['last'] = "last/Welcome";
 $route['sleep'] = "First/zzz";
 $route['lock/em/up'] = "Welcome/shucks";
 $route['show/3'] = "First/gimme/$3";
-/*$route['products/([a-zA-Z]+)/edit/(\d+)'] =
-function ($product_type, $id)
+$route['dunno'] =
+function ()
 {
- return 'catalog/product_edit/' . strtolower($product_type) . '/' . $id;
-};*/
+    $source = "./data/surprise.jpg";
+    header('Content-type: image/jpeg');
+    header('Content-Disposition: inline');
+    readfile($source);
+    die();
+};
 $route['([a-z]+)/bingo'] = "Bingo";
-$route['([a-z]+)(\d+)/wisdom'] = "Wise/Bingo";
+$route['comp(\d+)/wisdom'] = "Wise/Bingo";
 
 
 
