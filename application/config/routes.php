@@ -40,8 +40,18 @@
 
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
-$route['first page'] = "first";
-$route['/last/welcome'] = "Welcome";
+$route['first'] = "first";
+$route['last'] = "last/Welcome";
+$route['sleep'] = "First/zzz";
+$route['lock/em/up'] = "Welcome/shucks";
+$route['show/3'] = "First/gimme/$3";
+/*$route['products/([a-zA-Z]+)/edit/(\d+)'] =
+function ($product_type, $id)
+{
+ return 'catalog/product_edit/' . strtolower($product_type) . '/' . $id;
+};*/
+$route['([a-z]+)/bingo'] = "Bingo";
+$route['([a-z]+)(\d+)/wisdom'] = "Wise/Bingo";
 
 
 
